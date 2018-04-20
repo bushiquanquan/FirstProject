@@ -24,10 +24,10 @@ class Forecast extends Component<Props> {
                     {this.props.main}
                 </Text>
                 <Text style={styles.mainText}>
-                    Current conditions: {this.props.description}
+                    当前: {this.props.description}
                 </Text>
                 <Text style={styles.bigText}>
-                    {this.props.temp}°F
+                    {this.props.temp} ℃
                 </Text>
             </View>
         );
